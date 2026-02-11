@@ -14,16 +14,16 @@ namespace ProgrammingAssignment_1
             // init point variable
             int points = 0;
 
-            Console.Write("Enter Age : ");
+            Console.Write("Enter Age".PadRight(31) + ": ");
             int age = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter years at current address : ");
+            Console.Write("Enter years at current address".PadRight(31) + ": ");
             int addressYears = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter Annual Income : ");
+            Console.Write("Enter Annual Income".PadRight(31) + ": ");
             double income = double.Parse(Console.ReadLine());
 
-            Console.Write("Enter years at current Job : ");
+            Console.Write("Enter years at current Job".PadRight(31) + ": ");
             int jobYears = int.Parse(Console.ReadLine());
 
             // age points
