@@ -25,6 +25,7 @@ namespace ProgrammingAssignment_1
 
             Console.Write("Enter years at current Job".PadRight(31) + ": ");
             int jobYears = int.Parse(Console.ReadLine());
+            Console.WriteLine();
 
             // age points
             if (age <= 20) points -= 10;
